@@ -105,18 +105,17 @@ const HistoricalChart = () => {
                         </button>
                     </div>
                     <h3 className="text-center font-medium sm:text-lg mb-2">Historical Performance</h3>
-
                     <div className="grid grid-cols-3 text-center mb-15">
                         <div>
-                            <p className="text-4xl font-bold text-[#4A6585] mb-2">7.29%</p>
+                            <p className="lg:text-4xl md:text-3xl text-2xl font-bold text-[#4A6585] mb-2">7.29%</p>
                             <p className="text-[#404140] text-sm">IRR</p>
                         </div>
                         <div>
-                            <p className="text-4xl font-bold text-[#4A6585] mb-2">3.3%</p>
+                            <p className="lg:text-4xl md:text-3xl text-2xl font-bold text-[#4A6585] mb-2">3.3%</p>
                             <p className="text-[#404140] text-sm">Avg Dividend Yield</p>
                         </div>
                         <div>
-                            <p className="text-4xl font-bold text-[#4A6585] mb-2">6.3%</p>
+                            <p className="lg:text-4xl md:text-3xl text-2xl font-bold text-[#4A6585] mb-2">6.3%</p>
                             <p className="text-[#404140] text-sm">Avg Appreciation</p>
                         </div>
                     </div>

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import Chart from "react-apexcharts";
+import dynamic from "next/dynamic";
+const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 export default function ReturnsCalculator() {
     const [investment, setInvestment] = useState(10000);
